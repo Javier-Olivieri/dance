@@ -362,10 +362,28 @@ img {
             justify-content: center;
     margin-top: 230px;
   }
+  .mid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .codepen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .codepen {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
