@@ -217,19 +217,7 @@
   }
 
 
-audio {
-    display: flex;
-    margin-top: 230px;
-    width: 100px;
-    height: 20px;
-    animation:audioup 8s ease 2s 1 forwards;
-    
-}
 
-@keyframes audioup {
-    0% { transform:translateY(125px); opacity:0 }
-    100% { transform:translateY(20px); opacity:1 }
-  }
   
   img {
       height: 20px;
@@ -238,16 +226,32 @@ audio {
       margin-top: 5px;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
       .data{
           display: flex;
           width: 100%;
-          justify-content: center;
       }
-      .audiosi {
+  
+ 
+    .pie {
+      margin-top: 300px;
+      
+    }
+
+    audio {
+      display: flex;
+      justify-content: center;
+    }
+      
+   .body {
         display: flex;
-        justify-content: center;
-        margin-top: 230px;
+   
+       
+        }
+
+    .top {
+        display: flex;
+        width: auto;
     }
 
     .title {
@@ -259,25 +263,17 @@ audio {
         display: none;
     }
 
-
-
   
-      
-  }
+
+}
 
 
   @media screen and (min-width: 768px) {
     .data{
         display: flex;
         width: 100%;
+      
      
     } 
 
-    .audiosi {
-        display: flex;
-        justify-content: center;
-        margin-top: 230px;
-    }
-
-
-  }
+}
