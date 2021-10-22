@@ -374,12 +374,6 @@ img {
     display: flex;
     width: 100%;
   }
-  .feet {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-  }
 }
 
 @media screen and (min-width: 768px) {
