@@ -310,12 +310,6 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .data {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-  }
   .pie {
     margin-top: 300px;
   }
@@ -346,15 +340,6 @@ img {
   }
   img {
     display: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .data {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
