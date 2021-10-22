@@ -374,16 +374,16 @@ img {
     display: flex;
     width: 100%;
   }
-}
-
-@media screen and (min-width: 768px) {
-  .data {
+  .feet {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
   }
-  .codepen {
+}
+
+@media screen and (min-width: 768px) {
+  .data {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
