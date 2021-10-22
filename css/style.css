@@ -73,7 +73,6 @@ h2 {
   padding: 8px;
   border: 1px solid #111;
   text-decoration: none;
-  cursor: pointer;
 }
 
 a.ghost:hover {
@@ -311,9 +310,6 @@ img {
 }
 
 @media screen and (max-width: 768px) {
-  .ghost {
-    cursor: pointer;
-  }
   .pie {
     margin-top: 300px;
   }
