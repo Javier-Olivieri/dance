@@ -352,6 +352,9 @@ img {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .audiosi {
     display: -webkit-box;
@@ -362,6 +365,15 @@ img {
             justify-content: center;
     margin-top: 230px;
   }
+  .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 120px;
+  }
+  img {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -370,6 +382,15 @@ img {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+  }
+  .audiosi {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 230px;
   }
 }
 /*# sourceMappingURL=style.css.map */

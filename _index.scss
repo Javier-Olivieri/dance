@@ -242,11 +242,21 @@ audio {
       .data{
           display: flex;
           width: 100%;
+          justify-content: center;
       }
       .audiosi {
         display: flex;
         justify-content: center;
         margin-top: 230px;
+    }
+
+    .title {
+        display: flex;
+        margin-left: 120px;
+    }
+
+    img{
+        display: none;
     }
 
 
@@ -260,7 +270,14 @@ audio {
     .data{
         display: flex;
         width: 100%;
+     
     } 
+
+    .audiosi {
+        display: flex;
+        justify-content: center;
+        margin-top: 230px;
+    }
 
 
   }
